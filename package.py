@@ -33,4 +33,4 @@ build_command = "python {root}/rez_build.py"
 
 def commands():
     env.SHOTGUN_PYTHON_API_ROOT.set("{root}")
-    env.PYTHONPATH.append("{0}".format(env.SHOTGUN_PYTHON_API_ROOT)
+    env.PYTHONPATH.append("{0}".format(env.SHOTGUN_PYTHON_API_ROOT))
